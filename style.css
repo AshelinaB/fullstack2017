@@ -1,0 +1,12 @@
+*{
+	font-family:'helvetica';
+	color;#333;
+	box-sizing: border-box;
+}
+
+#mainContent{
+    width:960px;
+    margin:0px auto 0px auto;
+    background-color: #DDDBF1 ;
+}
+

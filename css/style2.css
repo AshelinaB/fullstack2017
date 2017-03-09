@@ -1,0 +1,111 @@
+*{
+	font-family:'helvetica';
+	color;#333;
+	box-sizing: border-box;
+}
+
+#mainContent{
+    width:960px;
+    margin:0px auto 0px auto;
+    background-color: #DDDBF1 ;
+}
+
+#mainContent div{
+	border:1px solid #fff;
+}
+
+#mainContent > div{
+	padding:20px;
+	width: 33%;
+	display:block;
+	float:left;
+}
+
+
+.firstpara, td {
+	color:#3C4f76;
+}
+td{
+	font-weight:bold;
+}
+
+td[rowspan="2"]{
+	background-color:#D18E80;
+}
+
+td[rowspan="2"] + td{
+	background-color:#D18E80; 
+}
+
+td[rowspan= "2"] ~ td {
+	padding:15px;
+}
+
+
+.btn ,.btn:focus, .btn:visited, .btn:active{
+	display:inline-block;
+	padding:10px;
+	background-color:#383F51;
+	color:#fff;
+	text-decoration:none;
+}
+
+.btn:hover{
+	background-color:#fff;
+	color:#383F51; 
+}
+#mainContent div:first-of-type{
+	background-color:#AB9FCD;
+}
+#mainContent  div:first-child;{
+	padding:40px;
+}
+
+
+#mainContent div:first-of-type{
+font-size:14px;
+}
+
+
+
+
+#mainContent div:last-child{
+	background-color:#D1BEB0;
+}
+
+
+
+
+#mainContent div:last-child{
+	padding:40px;
+}
+
+tr{
+	background-color:#fff;
+}
+tr:nth-child(1){
+	background-color:#D18E80;
+}
+tr:nth-child(odd){
+	background-color:#D18E80;
+}
+h2 img{
+	width:40px;
+	height:30px;
+	padding-left: 10px;
+}
+
+nav li ul{
+	display:none;
+}
+nav li:hover ul{
+	display:block;
+}
+
+/*
+#mainContent:after {
+	content:'';
+	display:block; 
+	clear:both;
+}
+*/
